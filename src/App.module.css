@@ -80,6 +80,10 @@
   background: transparent;
 }
 
+.trigger:last-child::after {
+  background: transparent;
+}
+
 .label {
   color: rgba(111, 110, 119, 1);
   font-size: 0.875rem;
@@ -87,11 +91,6 @@
   line-height: 1.5rem;
   letter-spacing: -0.00525rem;
   white-space: nowrap;
-}
-
-.trigger:first-child {
-  border-top-left-radius: 0rem;
-  border-left: none;
 }
 
 .content {
